@@ -84,5 +84,48 @@ div {
 }
 
 .videos iframe {
-	margin: 4% 20%;
+	width: 90%;
+	margin: 4% 10%;
 }
+
+@media screen and (max-width: 768px) {
+	.videos iframe {
+		margin: 4% 5%;
+		height: 200px;
+	}
+	.tagline p {
+		width: 160px;
+		font-size: 20px;
+		font-weight: 200;
+	}
+}
+
+
+@media screen and (max-width: 575px) {
+	.tagline p {
+    width: 200px;
+    font-size: 22px;
+  }
+    .quote-box {
+    width: 88%;
+    margin: 6% 7%;
+ 		}
+ 		.row.about-me {
+ 			display: flex;
+ 			flex-direction: column-reverse;
+ 			padding-right: 0;
+ 			width: 96%;
+ 			margin-left: 2%;
+ 			margin-right: 2%;
+ 		}
+ 		.row.about-me img {
+ 			margin: 30px auto;
+ 		}
+ 		.row.about-me .write-up,
+ 		.row.about-me .picture{
+ 			padding: 0;
+ 		}
+ 		.picture {
+ 			text-align: center !important;
+ 		}
+ }
